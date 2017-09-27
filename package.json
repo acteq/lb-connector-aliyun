@@ -1,0 +1,33 @@
+{
+    "name": "lb-connector-aliyun",
+    "version": "0.1.0",
+    "description": "Loopback connector module which allow to use aliyun service",
+    "main": "index.js",
+    "keywords": [
+        "loopback",
+        "aliyun",
+        "connector",
+        "templates"
+    ],
+    "author": "acte  <acte@foxmail.com> (http://acte.githu.io/)",
+    "license": "MIT",
+    "dependencies": {
+        "aliyun-sdk": "^1.10.5",
+        "axios": "^0.16.1",
+        "lodash": "^3.10.1",
+        "md5": "^2.2.1",
+        "q": "^1.4.1",
+        "query-string": "^4.3.4"
+    },
+    "devDependencies": {
+        "chai": "^1.9.2",
+        "loopback-datasource-juggler": "^2.44.0",
+        "mocha": "^2.0.1",
+        "rewire": "^2.1.2"
+    },
+    "homepage": "https://github.com/acteq/lb-connector-aliyun",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/acteq/lb-connector-aliyun.git"
+    }
+}
